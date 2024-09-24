@@ -1,14 +1,22 @@
----
-name: HTML Starter
-slug: html-starter-with-analytics
-description: HTML5 template with analytics and advanced routing configuration.
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html
-relatedTemplates:
-  - nextjs-boilerplate
----
+PNG to ICO Converter
+A simple web-based PNG to ICO converter that allows you to upload a PNG file and download the converted ICO file.
 
-# HTML Starter
+Usage
+Step 1: Open the Converter
+Open the index.html file in a web browser (e.g., Google Chrome, Mozilla Firefox).Copy
 
-This is a starter HTML5 templates which is configured with Vercel Analytics (through a `script` tag), advanced routing with [Vercel Edge Middleware](https://vercel.com/docs/concepts/functions/edge-middleware), as well as some basic styles
+Step 2: Select a PNG File
+Click on the "Choose file" button and select a PNG file from your computer.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html)
+Step 3: Convert to ICO
+Click on the "Convert to ICO" button. The converter will start processing the PNG file and display the conversion logs.
+
+Step 4: Download the ICO File
+Once the conversion is complete, a "Download ICO File" button will appear. Click on this button to download the converted ICO file.
+
+Requirements
+A modern web browser (e.g., Google Chrome, Mozilla Firefox)
+The png-to-ico library installed in your project directory (run npm install png-to-ico or yarn add png-to-ico to install)CopyCopyCopy
+Troubleshooting
+If you encounter any errors during the conversion process, check the conversion logs for more information.
+Make sure you have selected a valid PNG file and that the file is not corrupted.
